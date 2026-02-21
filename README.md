@@ -1,29 +1,32 @@
-# CountryDetails
+<h1>🌍 Explore Countries: Facts & Insights - <a  href="https://jayeshwpatil.github.io/countries/" >Live Link</a></h1>
+A Vue 3 web app to explore countries with real-time data.
+<br><br>
 
-This template should help get you started developing with Vue 3 in Vite.
+<h3>📌 Project Overview</h3>
+Explore Countries is a Vue 3 web application that allows users to search and discover key details about different countries. The app fetches real-time data from the REST Countries API, providing insights such as:
+<br><br>
 
-## Recommended IDE Setup
+<h3>🌎 Continent</h3>
+🏛️ Country Name<br>
+📍 Timezone<br>
+👥 Population<br>
+💰 Currency<br>
+🗣️ Languages<br>
+🗺️ Interactive Map Links<br><br>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+<h3>🛠 Technologies Used</h3>
+✔️ Vue 3 (Composition API)<br>
+✔️ Axios (for API calls)<br>
+✔️ JavaScript,<br> ✔️ HTML,<br> ✔️ CSS<br>
+✔️ Bootstrap 5 (for styling & responsiveness)
+<br><br>
 
-## Customize configuration
+<h3>🚀 Features</h3>
+✔️ Live Search: Instantly filter countries by name<br>
+✔️ Real-time Data: Fetches information dynamically<br>
+✔️ Interactive Maps: Click on country names for OpenStreetMap links<br>
+✔️ Flag Display: View country flags directly in the app<br>
+✔️ Responsive Design: Works on all devices<br><br>
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+<h3>🔗 API Source</h3>
+This project uses data from REST Countries API<br><br>
