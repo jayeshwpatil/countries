@@ -23,8 +23,10 @@ const finalResult = computed(() => {
 
 onMounted(async () => {
   try {
-    const response = await axios.get('https://restcountries.com/v3.1/all');
+    const response = await axios.get('https://restcountries.com/v3.1/all?fields=name,flags,maps,continents,area,timezones,population,languages,currencies,ccn3');
+
     result.value = response.data
+    console.log("result is ", result.value)
     // resultLength.value = result.value.length
   }
   catch (error) {
